@@ -58,7 +58,7 @@ func ReadFileAsStrings(inputFile string) []string {
 }
 
 //ReadFileAsInt - Read input file and return []int
-func ReadFileAsInt(sinputFile string) []int {
+func ReadFileAsInt(inputFile string) []int {
 
 	file, err := os.Open(inputFile)
 	output := []int{}
